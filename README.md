@@ -131,8 +131,8 @@ You can join projects after you login at https://portal.osgconnect.net/ . Within
 
 You have two ways to set the project name for your jobs:
 
-    1. Add the +ProjectName="MyProject" line to the HTCondor submit file. Remember to quote the project name!
-    2. Create in your home directory a file with your default project name: $HOME/.osg_default_project
+1. Add the +ProjectName="MyProject" line to the HTCondor submit file. Remember to quote the project name!
+2. Create in your home directory a file with your default project name: $HOME/.osg_default_project
 
 If you do not set a project name, or you use a project that you're not a member of, then your job submission will fail.
 
@@ -201,9 +201,9 @@ $ condor_history 823
 
 Once your job has finished, you can look at the files that HTCondor has returned to the working directory. If everything was successful, it should have returned:
 
-    * a log file from Condor for the job cluster: jog.log
-    * an output file for each job's output: job.output
-    * an error file for each job's errors: job.error
+* a log file from Condor for the job cluster: jog.log
+* an output file for each job's output: job.output
+* an error file for each job's errors: job.error
 
 Read the output file. It should be something like this: 
 
@@ -219,3 +219,4 @@ Et voila!
 
 Job 2: Submitting jobs concurrently
 -----------------------------------
+
