@@ -127,7 +127,7 @@ ConnectTrain
 
 ### More about projects
 
-You can join projects after you login at https://portal.osgconnect.net/ . Within minutes of joining and being approved for a project, you will have access via condor_submit as well. To define a new project, see the ConnectBook section for Principal Investigators.
+You can join projects after you login at https://portal.osgconnect.net/ . Within minutes of joining and being approved for a project, you will have access via condor_submit as well. For more information on creating a project, please see https://confluence.grid.iu.edu/display/CON/Start+a+Project+with+OSG+Connect 
 
 You have two ways to set the project name for your jobs:
 
