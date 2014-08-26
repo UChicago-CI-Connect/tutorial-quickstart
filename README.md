@@ -3,7 +3,7 @@ OSG Connect Quickstart
 
 Login to OSG Connect
 --------------------
-If not already registered to OSG Connect, go to the registration site and follow instructions there.
+If not already registered to OSG Connect, go to the registration site (http://ci-connect.uchicago.edu/) and follow instructions there.
 Once registered you are authorized to use login.osgconnect.net (the Condor submit host) and stash.osgconnect.net (the data host), in each case authenticating with your network ID (netid) and password
 
 Set up the tutorial
