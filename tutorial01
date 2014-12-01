@@ -1,5 +1,6 @@
 # The UNIVERSE defines an execution environment. You will almost always use VANILLA. 
-Universe = vanilla 
+Universe = grid
+grid_resource = batch condor dbala@login.ci-connect.uchicago.edu
 
 # EXECUTABLE is the program your job will run It's often useful 
 # to create a shell script to "wrap" your actual work. 
@@ -15,8 +16,10 @@ Output = job.output
 Log = job.log
 
 # +ProjectName is the name of the project reported to the OSG accounting system
-# +ProjectName="ConnectTrain"
+ +ProjectName="ConnectTrain"
 
 # QUEUE is the "start button" - it launches any jobs that have been 
 # specified thus far. 
 Queue 1
+
+

@@ -1,7 +1,12 @@
-Universe = vanilla 
+Universe = grid
+grid_resource = batch condor dbala@login.ci-connect.uchicago.edu
 Executable = short.sh 
 Error = log/job.error.$(Cluster)-$(Process) 
 Output = log/job.output.$(Cluster)-$(Process) 
 Log = log/job.log.$(Cluster) 
 #+ProjectName="ConnectTrain"
-Queue 10 
+Queue 5 
+
+
+
+
